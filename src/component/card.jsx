@@ -1,8 +1,9 @@
 import React from "react";
-import facebookIcon from "../assets/icons/icon-facebook.png"
-import githubIcon from "../assets/icons/icon-github.png"
-import linkedinIcon from "../assets/icons/icon-linkedin.png"
+import facebookIcon from "../assets/social-Icons/facebook.png"
+import githubIcon from "../assets/social-Icons/icon-github.png"
+import linkedinIcon from "../assets/social-Icons/icon-linkedin.png"
 import profileImg from "../assets/profile-img.png"
+
 
 
 function Card () {
@@ -13,8 +14,8 @@ function Card () {
                 <h2 className="name-text">Andrew Simon</h2>
                 <h3 className="job-title">Frontend Developer</h3>
                 <div className="buttons-cont">
-                    <button className="email-btn"><span  className="btn-icon-spacer"><i class="fa-solid fa-envelope"></i></span> Email</button>
-                    <button className="linkedin-btn"><span className="btn-icon-spacer"><i class="fa-brands fa-linkedin"></i></span> Linkedin</button>
+                    <button className="email-btn"><span  className="btn-icon-spacer"><i className="fa-solid fa-envelope"></i></span> Email</button>
+                    <button className="linkedin-btn"><span className="btn-icon-spacer"><i className="fa-brands fa-linkedin"></i></span> Linkedin</button>
                 </div>
                 <h2 className="sub-title">About</h2>
                 <h4 className="dis-text d-one-padding">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</h4>
